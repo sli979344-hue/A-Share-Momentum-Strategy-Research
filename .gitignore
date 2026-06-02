@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+
+# Raw data should not be uploaded
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Large intermediate files
+data/processed/panel_with_factor_group.csv
+
+# System files
+.DS_Store
+Thumbs.db
